@@ -1,0 +1,39 @@
+#snackbar .success {
+    background-color: #27AE60 !important;
+    border-color: #27AE60 !important;
+    margin-bottom: 30px !important;
+}
+
+#snackbar .info {
+    background-color: #0288d1 !important;
+    border-color: #0288d1 !important;
+    margin-bottom: 30px !important;
+}
+
+#snackbar .warning {
+    background-color: #ed6c02 !important;
+    border-color: #ed6c02 !important;
+    margin-bottom: 30px !important;
+}
+
+#snackbar .error {
+    background-color: #B00020 !important;
+    border-color: #B00020 !important;
+    margin-bottom: 30px !important;
+}
+
+#snackbar .success, #snackbar .error,
+#snackbar .warning, #snackbar .info {
+    color: #FFF !important;
+    position: fixed !important;
+    bottom: 0 !important;
+}
+
+.snackbarContainer {
+    display: flex;
+    align-items: center;
+}
+
+.snackbarContainer i {
+    margin-right: .5em;
+}
