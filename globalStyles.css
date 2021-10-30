@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif !important;
+}
+​
+.title {
+    margin-bottom: 30px;
+    color: #162969;
+}
+​
+tbody > tr > td.bold {
+	font-weight: bold;
+	font-size: .875rem !important;
+}
+
+button:hover {
+    filter: brightness(1.2) !important;
+    transition: all 300ms ease !important;
+}
+
+#backButton {
+    margin-bottom: 1.5rem;
+}
+
+.button_search {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 2px;
+}
+
+.search_column {
+    border-right: 1px solid rgba(0,0,0,.12);
+    padding: 0 1.5rem 0 1.5rem;
+    flex: 1;
+}
+
+.search_result {
+    flex: 3;
+    padding: 4.5rem 1.5rem;
+}
+
+.box {
+	display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 6px;
+    justify-content: space-between;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 12%);
+}
+
+.boxRow {
+    width: 100%;
+}
+
+.rowIdentificator {
+	font-weight: 700;
+    line-height: 1.5;
+	font-size: 1.125rem;
+    letter-spacing: 0.00938em;
+    margin-bottom: 0.5rem;
+}
+
+.detailRow {
+	display: flex;
+    margin-bottom: 1.5rem;
+}
+
+.detailContainer {
+    display: flex;
+    flex-direction: column;
+    padding: .5em 0px;
+}
+
+.detailContainer:not(:last-of-type) {
+	margin-right: 2.5rem;
+}
+
+.detailContainer:last-of-type {
+    padding-bottom: 0;
+    margin-bottom: 1em;
+}
+
+.detailFileHeader {
+    font-size: .875rem;
+    font-weight: 400;
+    margin-bottom: .5em;
+    color: #808080;
+}
+
+.detailFileData {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.dialogIcon {
+	display: flex;
+	justify-content: center;
+	margin-top: .5em;
+	margin-bottom: .5em;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+.form {
+    margin-top: 1.5em;
+    overflow: unset;
+}
+
+.dates {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.saldoContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.saldoInnerContainer {
+    padding: 10px 30px 10px 30px;
+    margin-bottom: 1.5em;
+    overflow: hidden;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.saldoTitle {
+    color: #4FB645;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.saldoAmount {
+	font-size: 1.325rem;
+    font-weight: bold;
+    margin: 3px 0;
+    display: inline-block;
+}
+
+.v-data-table {
+	margin-bottom: 1em;
+}
+
+.headerModal {
+    font-weight: 700 !important;
+    letter-spacing: -0.04em !important;
+}
+
+.textModal{
+    font-weight: 500 !important;
+}
+
+.v-card__actions{
+    padding: 0.5rem 1.5rem 1.5rem !important;
+}
+
+/*loading linear table*/
+.v-progress-linear--visible .v-progress-linear__indeterminate--active .long, .v-progress-linear--visible .v-progress-linear__indeterminate--active .short, .v-progress-linear--visible .v-progress-linear__stream{
+    background-color: #52197F !important;
+    border-color: #52197F !important;
+}
+.v-progress-linear__buffer  {
+    background-color: #CBBAD9 !important;
+}
+
+.marginTopTable {
+    margin-top: 1.5rem;
+}
